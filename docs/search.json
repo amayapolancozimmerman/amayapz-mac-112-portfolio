@@ -25,6 +25,6 @@
     "href": "notes/note-01.html",
     "title": "4  Note 01",
     "section": "",
-    "text": "test"
+    "text": "Chapter 2 Reading Notes\nThe intention behind data science is to use data to understand information relating to a specific field of study and question, within a specific and defined context. Within RStudio we have access to a console (for quick calculations and testing code), our console history to access previous work, as well as files and plot packages to support our endeavors on R. Quarto is a technological tool incorporated into RStudio to enable the reproducible creation of nicely formatted documents, webpages, etc. It is important to leave comments (#) as you work for your own clarity and understanding, as well as for that of others. You want to be able to look back on your work and know what you were thinking /doing at past moments, and you also want others to be able to look at your work and know what you were doing. Leaving comments on your work is good for communication."
   }
 ]
