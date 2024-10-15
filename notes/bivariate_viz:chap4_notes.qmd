@@ -1,0 +1,116 @@
+---
+title: "Bivariate Viz"
+editor: visual
+---
+
+```{r}
+# Load data
+elections <- read.csv("https://mac-stat.github.io/data/election_2020_county.csv")
+
+# Check it out
+head(elections)
+```
+
+**Exercise 0: Review**
+
+\(a\)
+
+The republican candidate won 5/6 of the counties.
+
+Plot of winner variable:
+
+```{r}
+ggplot (elections, aes(x=winner_20, y =repub_pct_16))+
+  geom_boxplot()
+```
+
+What is the correlation between the percent of white people (percent_white) present in a given county and the winning party in that county?
+
+\(b\)
+
+```{r}
+ggplot (elections, aes(x=repub_pct_20))+
+  geom_histogram()
+```
+
+Why is the data skewed to the left?
+
+**Exercise 1**
+
+```{r}
+ggplot(elections, aes(x=repub_pct_16, y=repub_pct_20))+
+  geom_point()
+```
+
+```{r}
+# Set up the plotting frame
+ggplot(elections, aes(y = repub_pct_20, x = repub_pct_16))
+
+# How does this differ than the frame for our histogram of repub_pct_20 alone?
+#This differs from the frame for our histogram of repub_pct_20 in that the y axis of the previous only depicted count. Contrastingly, this one presents us with another variable (repub_pct_20); the responsive variable.
+```
+
+```{r}
+# Add a layer of points for each county
+ggplot(elections, aes(y = repub_pct_20, x = repub_pct_16)) +
+  geom_point()
+
+# Take note of the geom!
+#A scatterplot is the best way to model the relationship between these two variables, so we are using a scatter plot - hence why the geometric expression layer is geom_point()
+```
+
+```{r}
+# Change the shape of the points
+# What happens if you change the shape to another number?
+ggplot(elections, aes(y = repub_pct_20, x = repub_pct_16)) +
+  geom_point(shape = 6)
+
+#Changing the shape to another number changes the shape of the point 
+```
+
+```{r}
+# YOU TRY: Modify the code to make the points "orange"
+# NOTE: Try to anticipate if "color" or "fill" will be useful here. Then try both.
+ggplot(elections, aes(y = repub_pct_20, x = repub_pct_16)) +
+  geom_point(color='orange')
+```
+
+```{r}
+# Add a layer that represents each county by the state it's in
+# Take note of the geom and the info it needs to run!
+ggplot(elections, aes(y = repub_pct_20, x = repub_pct_16)) +
+  geom_text(aes(label = state_abbr))
+```
+
+**Exercise 3**
+
+There seems to be a moderately strong relationship between republican support in 2020 and 2016. This relationship seems to be positive and linear. Based on the graph above, I think there is a moderately strong positive correlation between republican support in 2020 and 2016. Texas seems to be deviating from this trend the most, which makes sense because of how polarized its rural and city areas are.
+
+**Exercise 4**
+
+```{r}
+ggplot(elections, aes(y = repub_pct_20, x = repub_pct_16)) +
+  geom_point() +
+  geom_smooth()
+```
+
+\(a\)
+
+```{r}
+ggplot(elections, aes(y = repub_pct_20, x = repub_pct_16)) +
+  geom_smooth()
+```
+
+\(b\)
+
+```{r}
+ggplot(elections, aes(y = repub_pct_20, x = repub_pct_16)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+```
+
+**Exercise 5**
+
+```{r}
+
+```

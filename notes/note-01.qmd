@@ -1,7 +1,6 @@
 ---
-title: "Note 01"
+title: "Chapter 2 Reading Notes"
 ---
-Chapter 2 Reading Notes
 
 The intention behind data science is to use data to understand information relating to a specific field of study and question, within a specific and defined context.
 Within RStudio we have access to a console (for quick calculations and testing code), our console history to access previous work, as well as files and plot packages to support our endeavors on R.

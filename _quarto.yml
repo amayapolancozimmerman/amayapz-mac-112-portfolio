@@ -21,6 +21,7 @@ book:
       chapters: 
       - notes/note-01.qmd
       - notes/note-02.qmd
+      - notes/note-03.qmd
 
 format:
   html:
