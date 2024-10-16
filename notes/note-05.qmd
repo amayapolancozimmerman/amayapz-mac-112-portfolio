@@ -1,0 +1,60 @@
+---
+title: "Chapter 4 Reading Notes: Spatial Viz"
+editor: visual
+---
+
+-   Simpson\'s Paradox
+
+-   Confounding variable
+
+    -   Influences both the dependent and independent variable
+
+-    Omitted variable 
+
+    -   Relevant variable that is not included in the model
+
+```{=html}
+<!-- -->
+```
+-   Lurking variable
+
+    -   Not included in the analysis, but can affect the outcome of the analysis\
+
+-   Types of spatial viz:
+
+    -   Point Maps: plotting locations of individual observations (ex: [bigfoot sightings](https://experience.arcgis.com/experience/9cc90686aa164853a1355f310f66ede0))
+
+    -   Contour Maps: plotting the density or distribution of observations (not the individual observations themselves)
+
+    -   Choropleth Maps: plotting outcomes in different regions
+
+```{=html}
+<!-- -->
+```
+-   Spatial maps can be static or dynamic/interactive.
+
+-   To make a map, the data set requires:
+
+    -   location coordinates for your points of interest (for point maps); or
+
+    -   variable outcomes for your regions of interest (for choropleth maps)
+
+-   The boundaries of our map are determined by latitude and longitude coordinates
+
+-   addProviderTiles() changes the base map.
+
+    -   Typing Providers into the console gives you a list of different possible base maps to choose from
+
+-   addMarkers() and addCircles() are used to mark locations. 
+
+    -   Typing ?addControl into the console summarizes marker aesthetics and directs you on how to change them
+
+        -   To change the thickness of lines points and pixels: weight 
+
+        -   To change the transparency: opacity (does the same thing as setting alpha= but is specific to this package)
+
+-   To specify color: color=col2hex(\"name of color\")
+
+-   Point maps can be made using either the leaflet() package or the ggplot() package
+
+    -   leaflet() is better for interactive maps, but ggplot() is better for efficient map making
