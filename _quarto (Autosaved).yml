@@ -1,0 +1,45 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "COMP/STAT112 Notebook"
+  author: "Amaya Polanco Zimmerman"
+  date: "09/06/24"
+  reader-mode: true
+  
+  chapters:
+    - index.qmd
+
+    - part: activities/README.qmd
+      chapters: 
+      - activities/activity-01.qmd
+      - activities/activity-02.qmd
+      - activities/activity-03.qmd
+    
+    - part: notes/README.qmd
+      chapters: 
+      - notes/note-01.qmd
+      - notes/note-02.qmd
+      - notes/note-03.qmd
+      - notes/note-04.qmd
+      -notes/note-05.qmd
+
+      
+    - part: homework/README.qmd
+      chapters: 
+      - homework/homework-2.qmd
+      - homework/homework-3.qmd
+          
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+    code-line-numbers: true
+    code-tools: true
+
+execute:
+  cache: true
+  freeze: auto
