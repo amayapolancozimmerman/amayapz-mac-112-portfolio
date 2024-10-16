@@ -1,0 +1,4 @@
+---
+title: "note-04"
+editor: visual
+---

@@ -1,0 +1,38 @@
+---
+title: "Chapter 1 Notes - Univariate Data Visualization"
+editor: visual
+---
+
+**Chapter 1 Reading Notes: Data Visualization**
+
+-   Why data visualization is beneficial:
+
+    -   Provides a sense of scale and typical outcomes
+
+    -   Provides information about typical outliers
+
+    -   Provides an understanding of patterns and relationships between variables
+
+    -   Informs the next step of our analysis 
+
+    -   Prompts us to refine our investigative question
+
+    -   Supports and communicates findings gained by analyzing data
+
+-   Data visualization is the process of mapping data to different plot components
+
+-   Mapping components in data visualization:
+
+1.  A frame or coordinate system -- variables /features that define the axes and gridlines of the canvas
+
+2.  A layer -- geometric elements (such as lines and/or points) added to the canvas to represent the data or patterns in the data
+
+    1.  Each geometric element is a separate layer and there can be many
+
+3.  Scales -- geometric elements can tell us more about the potential scaling and grouping of data
+
+4.  Faceting -- splitting of data into multiple subplots to examine different groups within the data
+
+5.  Theme -- additional controls relating to the aesthetics of the plot
+
+-   \"gg\" = grammar of graphics

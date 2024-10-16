@@ -19,9 +19,16 @@ book:
     
     - part: notes/README.qmd
       chapters: 
-      - notes/note-01.qmd
+      - notes/Chapter_1_Notes_Univariate Viz.qmd
       - notes/note-02.qmd
       - notes/note-03.qmd
+      - notes/note-04.qmd
+      
+    - part: homework/README.qmd
+      chapters: 
+      - homework/homework-2.qmd
+      - homework/homework-3.qmd
+          
 
 format:
   html:
