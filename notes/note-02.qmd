@@ -2,18 +2,22 @@
 title: "Chapter 3 Reading Notes: Data Visualization"
 ---
 Why data visualization is beneficial:
-Provides a sense of scale and typical outcomes
-Provides information about typical outliers
-Provides an understanding of patterns and relationships between variables
-Informs the next step of our analysis 
-Prompts us to refine our investigative question
-Supports and communicates findings gained by analyzing data
+
+- Provides a sense of scale and typical outcomes
+- Provides information about typical outliers
+- Provides an understanding of patterns and relationships between variables
+- Informs the next step of our analysis 
+- Prompts us to refine our investigative question
+- Supports and communicates findings gained by analyzing data
+
 Data visualization is the process of mapping data to different plot components
+
 Mapping components in data visualization:
-A frame or coordinate system – variables /features that define the axes and gridlines of the canvas
-A layer – geometric elements (such as lines and/or points) added to the canvas to represent the data or patterns in the data
-Each geometric element is a separate layer and there can be many
-Scales – geometric elements can tell us more about the potential scaling and grouping of data
-Faceting – splitting of data into multiple subplots to examine different groups within the data
-Theme – additional controls relating to the aesthetics of the plot
+- A frame or coordinate system – variables /features that define the axes and gridlines of the canvas
+- A layer: geometric elements (such as lines and/or points) added to the canvas to represent the data or patterns in the data
+            - Each geometric element is a separate layer and there can be many
+- Scales: geometric elements can tell us more about the potential scaling and grouping of data
+- Faceting: splitting of data into multiple subplots to examine different groups within the data
+- Theme: additional controls relating to the aesthetics of the plot
+
 “gg” = grammar of graphics 

@@ -35,4 +35,4 @@ editor: visual
 
 5.  Theme -- additional controls relating to the aesthetics of the plot
 
--   \"gg\" = grammar of graphics
+-   "gg" = grammar of graphics
