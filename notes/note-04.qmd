@@ -1,4 +1,18 @@
 ---
-title: "note-04"
+title: "Chapter 3 Reading Notes: Multivariate Viz"
 editor: visual
 ---
+
+-   Scales change the color, fill, size, shape, or other properties according to the levels of a new variable. 
+
+-   A dendrogram is a type of diagram that shows the extent of the existing relationship between objects or entities using branches
+
+-   Some data visualization techniques that indicate the relative scale of each variable:
+
+    -   Heat maps 
+
+    -   Star plot
+
+        -   Each star represents an individual observation
+
+        -   Communicates to us what variables are dominant within a data set

@@ -1,4 +1,40 @@
 ---
-title: "Note 03"
+title: "Chapter 2 Reading Notes: Bivariate Visualization"
 editor: visual
 ---
+
+-   How to set up a plot:
+
+    -   set up a frame
+
+    -   add a layer / geometric element
+
+    -   change the theme, e.g. axis labels, color, fill
+
+-   Bar charts count up the number of observations of each outcome of a variable. 
+
+    -   Good for categorical variables
+
+-   Histograms count up the number of observations that fall into different numerical ranges of variables
+
+    -   Good for quantitative variables
+
+-   Univariate plots study one variable at a time
+
+-   Response variable: the variable whose variability we would like to explain 
+
+-   Predictors: variables that might explain some of the variability in the response 
+
+-   Relationship trend: direction and form
+
+-   Relationship strength: variability from the trend
+
+-   Outliers in variability 
+
+-   Quantitative variables
+
+    -   require a new axis (or a quantitative scale if we run out of axes).
+
+-   Categorical variables require a new way to \"group\" the graphic 
+
+    -   eg: using colors, shapes, separate facets, etc
