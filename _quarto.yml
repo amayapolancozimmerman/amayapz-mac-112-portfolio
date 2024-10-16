@@ -19,7 +19,7 @@ book:
     
     - part: notes/README.qmd
       chapters: 
-      - notes/Chapter_1_Notes_Univariate Viz.qmd
+      - notes/note-01.qmd
       - notes/note-02.qmd
       - notes/note-03.qmd
       - notes/note-04.qmd
@@ -39,5 +39,5 @@ format:
     code-tools: true
 
 execute:
-  cache: false
+  cache: true
   freeze: auto
